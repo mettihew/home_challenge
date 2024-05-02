@@ -1,0 +1,27 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: justify;
+  max-width: 900px;
+}
+
+.title {
+  width: 400px;
+  border: 1px solid blue;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: larger;
+}
+
+.title a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 850px) {
+  .body{
+    min-width: 900px;
+  }  
+}

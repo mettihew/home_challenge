@@ -1,0 +1,71 @@
+.body{
+  max-width: 900px;
+  min-width: 300px;
+  background-color: rgb(249, 249, 249);
+  padding: 10px;
+}
+
+.filter{
+  background-color: #e8f7ff;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkboxBody{
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.title p{
+  color: gray;
+  margin-top: 0;
+}
+
+.title a{
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+}
+
+.title a:hover{
+  color: blue;
+}
+
+.pages{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid blue;
+  margin: 10px 0px;
+}
+.pages h3, p{
+  cursor: pointer;
+}
+.pages h3:hover{
+  color: orange;
+}
+.pages p:hover{
+  color: orange;
+}
+
+
+.currentPage{
+  color: blue;
+}
+
+.middlePages{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
